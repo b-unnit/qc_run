@@ -186,7 +186,7 @@ rm -rf $SCRDIR
     '''.format(jobName.stem, str(nprocs),str(run_dir),mem, partition, version, str(inp), str(out))
     return (sbatch_string, jobName)
 
-def gaussian(run_dir, nprocs = 8, mem = "4GB", partition = "qcmm", inp = "inp.dat", out = "out.dat", version = "16-AVX.lua", name="job"):
+def gaussian(run_dir, nprocs = 8, mem = "24GB", partition = "qcmm", inp = "inp.dat", out = "out.dat", version = "16-AVX.lua", name="job"):
     jobName = run_dir / Path("G16_" + name + ".sh")
     sbatch_string = '''#!/bin/bash
 #SBATCH --job-name  {0}
