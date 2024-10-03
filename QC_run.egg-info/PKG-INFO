@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: QC-run
+Version: 0.1.0
+Summary: QC_run: An API for submitting popular  quantum chemistry programs to a slurm queue system
+Home-page: UNKNOWN
+Maintainer: Stefan Vogt
+Maintainer-email: stvogtgeisse@gmail.com
+License: MIT
+Description: 
+        =======
+        "QC_api: An API for popular quantum chemistry programs"
+        
+        
+        
+Platform: UNKNOWN
