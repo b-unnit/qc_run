@@ -1,8 +1,0 @@
-README.md
-setup.py
-QC_run.egg-info/PKG-INFO
-QC_run.egg-info/SOURCES.txt
-QC_run.egg-info/dependency_links.txt
-QC_run.egg-info/top_level.txt
-qc_run/__init__.py
-qc_run/sub_job.py

@@ -1,2 +1,0 @@
-cp: cannot stat ‘inp.dat’: No such file or directory
-cp: cannot stat ‘!(*.tmp)’: No such file or directory
