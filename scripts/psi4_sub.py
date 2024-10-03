@@ -12,7 +12,7 @@ parser.add_option("-d", dest="directory", help="Directorio destino de ejecución
 parser.add_option("-o", dest="outputFile", help="Archivo de Output (default= out.dat)", default="out.dat")
 parser.add_option("-c", dest="procs", help="Número de cores a usar (default= 4)", default=4)
 parser.add_option("-q", dest="queue", help="Cola de destino (default = intel)", default="intel")
-parser.add_option("-m", dest="mem", help="Memoria a reservar (default = 4GB)", default="4GB")
+parser.add_option("-m", dest="mem", help="Memoria a reservar (default = 6GB)", default="6GB")
 parser.add_option("-n", dest="non", action="store_true", help="Solo guardar el submit script? (Defualt = False)")
 parser.add_option("-v", dest="version", help="Version de psi4 a usar (default = 1.6.1)", default="1.6.1")
 
