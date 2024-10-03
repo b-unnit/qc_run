@@ -1,5 +1,4 @@
 
-=======
-"QC_api: An API for popular quantum chemistry programs"
+QC_run is a python module to create slurm sumbit scripts.
 
 
